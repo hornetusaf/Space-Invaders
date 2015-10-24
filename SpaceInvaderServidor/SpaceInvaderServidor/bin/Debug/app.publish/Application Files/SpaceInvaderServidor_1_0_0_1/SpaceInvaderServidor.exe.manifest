@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="SpaceInvaderServidor.exe" version="1.0.0.1" publicKeyToken="b27b681a719b8856" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SpaceInvaderServidor" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="SpaceInvaderServidor.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la 
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SpaceInvaderServidor.exe" size="54272">
+      <assemblyIdentity name="SpaceInvaderServidor" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>+O5eyXgHQEn88M4cbG+dqBiP3ss=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=HORNET-DESKTOP\Hornet" issuerKeyHash="ad99ac20940f917f0b600d383ca15377d02aa228" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>mwJPDfAMRWysO3Wv4VHzAOzdFEE=</DigestValue></Reference></SignedInfo><SignatureValue>GsN+xD0ImYzlblz7pPuayHfW5P6/nZnQnmEJ9u3vJSLj7O2jilE4UvL2Utbi/XBNW43OxmbHGeYWjrRqVS6uBBT3RuT6R95BD+UuxlvZdKFjruxrud5uVZF3DOsbq+hI/uScBmUuwdLBszAHjOuiV6QeGOssCipXvFovVh+I4gk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rL+Hrh/oNBU3BYSNPPQoLpNmcEUwwXQ3l/hNUg5KVr3IUVlJmnZqHLl0p6gMklIZQddkKQOoj3jOmvw4mGdrve1hycAe/tNL5kjSqfANjirDSnGCwhPHjg8nQjQSmKK9sJCkGEzsKRudoASDXMUtcgzXrWvy1GMOschUpIVnxyU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4114ddec00f351e1af753bac6c450cf00d4f029b" Description="" Url=""><as:assemblyIdentity name="SpaceInvaderServidor.exe" version="1.0.0.1" publicKeyToken="b27b681a719b8856" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HORNET-DESKTOP\Hornet</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>WGV5Z4DYKGlCGTbk6juXJ4vjRHQ=</DigestValue></Reference></SignedInfo><SignatureValue>ABZqA8Lvw6ifVqDwy+TUEL3RCGekooS3oH099wWpeOizleVqB1HoJ552RduHac4mM1Z5DcBj3B9A39OzZdHCzFJ9Z6SmdJIZsKnN8v+zIimmd+FMM9lgdTma8Rz0UHSltlI6pQsuoUxrGBnHH58i7yjWfQqFQKYTyIZS7zCZSRw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rL+Hrh/oNBU3BYSNPPQoLpNmcEUwwXQ3l/hNUg5KVr3IUVlJmnZqHLl0p6gMklIZQddkKQOoj3jOmvw4mGdrve1hycAe/tNL5kjSqfANjirDSnGCwhPHjg8nQjQSmKK9sJCkGEzsKRudoASDXMUtcgzXrWvy1GMOschUpIVnxyU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQHTN0AbQQ0a9K4qHFdYWWLTANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioASABPAFIATgBFAFQALQBEAEUAUwBLAFQATwBQAFwASABvAHIAbgBlAHQwHhcNMTExMjEyMDIzMTMxWhcNMTIxMjExMDgzMTMxWjA1MTMwMQYDVQQDHioASABPAFIATgBFAFQALQBEAEUAUwBLAFQATwBQAFwASABvAHIAbgBlAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKy/h64f6DQVNwWEjTz0KC6TZnBFMMF0N5f4TVIOSla9yFFZSZp2ahy5dKeoDJJSGUHXZCkDqI94zpr8OJhna73tYcnAHv7TS+ZI0qnwDY4qw0pxgsITx44PJ0I0EpiivbCQpBhM7CkbnaAEg1zFLXIM161r8tRjDrHIVKSFZ8clAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAdbIZVLuqWJpwOdogkghYUbDTl102xUDt1iGms1zqUoiWqVp+W9f947UoihM3Zv+u3SsLaEAC9GJm/kW8JKIa6EbJNR99Zg+X/WZCzVbwBgwtwrTSC4oXLmdnaMaZkj13pTBkwg+5l8afEvQoeXSJzV2Kzvx7CcwI2VrzJmAvxxY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

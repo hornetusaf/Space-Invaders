@@ -1,0 +1,12 @@
+C:\Users\Hornet\Documents\Visual Studio 2010\Projects\SpaceInvaderCliente\SpaceInvaderCliente\bin\Debug\SpaceInvaderCliente.exe
+C:\Users\Hornet\Documents\Visual Studio 2010\Projects\SpaceInvaderCliente\SpaceInvaderCliente\bin\Debug\SpaceInvaderCliente.pdb
+C:\Users\Hornet\Documents\Visual Studio 2010\Projects\SpaceInvaderCliente\SpaceInvaderCliente\obj\x86\Debug\SpaceInvaderCliente.Form1.resources
+C:\Users\Hornet\Documents\Visual Studio 2010\Projects\SpaceInvaderCliente\SpaceInvaderCliente\obj\x86\Debug\SpaceInvaderCliente.Properties.Resources.resources
+C:\Users\Hornet\Documents\Visual Studio 2010\Projects\SpaceInvaderCliente\SpaceInvaderCliente\obj\x86\Debug\SpaceInvaderCliente.exe
+C:\Users\Hornet\Documents\Visual Studio 2010\Projects\SpaceInvaderCliente\SpaceInvaderCliente\obj\x86\Debug\SpaceInvaderCliente.pdb
+C:\Users\Hornet\documents\visual studio 2010\Projects\SpaceInvaderCliente\SpaceInvaderCliente\bin\Debug\SpaceInvaderCliente.exe.manifest
+C:\Users\Hornet\documents\visual studio 2010\Projects\SpaceInvaderCliente\SpaceInvaderCliente\bin\Debug\SpaceInvaderCliente.application
+C:\Users\Hornet\documents\visual studio 2010\Projects\SpaceInvaderCliente\SpaceInvaderCliente\obj\x86\Debug\SpaceInvaderCliente.exe.manifest
+C:\Users\Hornet\documents\visual studio 2010\Projects\SpaceInvaderCliente\SpaceInvaderCliente\obj\x86\Debug\SpaceInvaderCliente.application
+C:\Users\Hornet\documents\visual studio 2010\Projects\SpaceInvaderCliente\SpaceInvaderCliente\obj\x86\Debug\SpaceInvaderCliente.csprojResolveAssemblyReference.cache
+C:\Users\Hornet\documents\visual studio 2010\Projects\SpaceInvaderCliente\SpaceInvaderCliente\obj\x86\Debug\SpaceInvaderCliente.csproj.GenerateResource.Cache
